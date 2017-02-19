@@ -72,6 +72,7 @@ body {
   border-style: solid;
   width: 519px;
   height: 746px;
+
 }
 .font3 p{
   margin-top:42px;
@@ -79,16 +80,14 @@ body {
   font-family: 'PT Sans';
 color: #333333;
 font-size: 24px;
-font-weight: 400px;
 text-align: left;
 }
-.font3 p1{
+.font3 h1 p{
 
-margin: 50px 50px 50px 50px;
+margin-right: 30px;
 font-family: 'PT Sans';
 color: #333333;
 font-size: 12px;
-font-weight: 450px;
 text-align: left;
 
 }
@@ -98,7 +97,7 @@ text-align: left;
   margin-top:6px;
   margin-left:33px;
   margin-right:20px;
-  margin-bottom: 30px;
+  margin-bottom: 20px;
    border:0;
     max-width: 100%;
 }
