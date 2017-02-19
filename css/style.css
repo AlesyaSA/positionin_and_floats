@@ -73,8 +73,30 @@ body {
   width: 519px;
   height: 746px;
 }
-.font3 img{
-  border-radius: 40px; float: left;
+.font3 p{
+  margin-top:42px;
+  margin-left:33px;
+  font-family: 'Myriad Pro';
+color: #333333;
+font-size: 24px;
+font-weight: 400;
+text-align: left;
+}
+.font3 p1{
+font-family: 'Myriad Pro';
+color: #333333;
+font-size: 12px;
+font-weight: 350;
+text-align: left;
+
+}
+.font3 img {
+  float:left;
+  margin-top:6px;
+  margin-left:33px;
+  margin-right:20px;
+   border:0;
+    max-width: 100%;
 }
 .font3 div {
   position: absolute;
