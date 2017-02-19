@@ -12,7 +12,7 @@ body {
   top: 39px;
   position: absolute;
   z-index: 1;
-
+  //left:258px;
   border-width: 2px;
   border-color: #000000;
   border-style: solid;
@@ -73,7 +73,8 @@ body {
   width: 519px;
   height: 746px;
 }
-
+.font3 img{
+  border-radius: 40px; float: left;
 }
 .font3 div {
   position: absolute;
