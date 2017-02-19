@@ -8,11 +8,11 @@ body {
   margin: 239px auto;
   position: relative;
   }
-.font1 {//down layer
+.font1 {
   top: 39px;
   position: absolute;
   z-index: 1;
-  //left:258px;
+
   border-width: 2px;
   border-color: #000000;
   border-style: solid;
@@ -20,7 +20,7 @@ body {
   width: 519px;
   height: 746px;
 }
-.font1 div {//
+.font1 div {
   position: absolute;
   z-index: 2;
   left: 440px;
@@ -73,8 +73,7 @@ body {
   width: 519px;
   height: 746px;
 }
-//.font3 img{
-//  border-radius: 40px; float: left;
+
 }
 .font3 div {
   position: absolute;
