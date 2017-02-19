@@ -1,0 +1,92 @@
+body {
+  width: 1000px;
+  height: 2000px;
+}
+
+.conteiner {
+  width: 500px;
+  margin: 239px auto;
+  position: relative;
+  }
+.font1 {//down layer
+  top: 39px;
+  position: absolute;
+  z-index: 1;
+  //left:258px;
+  border-width: 2px;
+  border-color: #000000;
+  border-style: solid;
+  background-color: #acacac;
+  width: 519px;
+  height: 746px;
+}
+.font1 div {//
+  position: absolute;
+  z-index: 2;
+  left: 440px;
+  top: 48px;
+  border-bottom-right-radius: 10px;
+  border-top-right-radius: 10px;
+  border-width: 2px;
+  border-color: #000000;
+  border-style: solid;
+  background-color: #00aeef;
+  width: 95px;
+  height: 31px;
+}
+.font2 {
+  left: -19px;
+  top: 19px;
+  background-color: #cccccc;
+  z-index: 3;
+  position: absolute;
+  border-width: 2px;
+  border-color: #000000;
+  border-style: solid;
+  width: 519px;
+  height: 746px;
+}
+
+.font2 div {
+  position: absolute;
+  z-index: 4;
+  left: 472px;
+  top: 43px;
+  border-bottom-right-radius: 10px;
+  border-top-right-radius: 10px;
+  border-width: 2px;
+  border-color: #000000;
+  border-style: solid;
+  background-color: #39b54a;
+  width: 95px;
+  height: 31px;
+}
+
+.font3 {
+  left: -40px;
+  z-index: 5;
+  background-color: #ebebeb;
+  position: absolute;
+  border-width: 2px;
+  border-color: #000000;
+  border-style: solid;
+  width: 519px;
+  height: 746px;
+}
+.font3 img{
+  border-radius: 40px; float: left;
+}
+.font3 div {
+  position: absolute;
+  z-index: 6;
+  left: 494px;
+  top: 36px;
+  border-bottom-right-radius: 10px;
+  border-top-right-radius: 10px;
+  border-width: 2px;
+  border-color: #000000;
+  border-style: solid;
+  background-color: #f68e56;
+  width: 107px;
+  height: 31px;
+}
