@@ -17,8 +17,8 @@ body {
   border-color: #000000;
   border-style: solid;
   background-color: #acacac;
-  width: 519px;
-  height: 746px;
+  width: 523px;
+  height: 750px;
 }
 .font1 div {
   position: absolute;
@@ -43,8 +43,8 @@ body {
   border-width: 2px;
   border-color: #000000;
   border-style: solid;
-  width: 519px;
-  height: 746px;
+  width: 523px;
+  height: 750px;
 }
 
 .font2 div {
@@ -70,36 +70,79 @@ body {
   border-width: 2px;
   border-color: #000000;
   border-style: solid;
-  width: 519px;
-  height: 746px;
+  width: 523px;
+  height: 750px;
 
 }
 .font3 p{
-  margin-top:42px;
-  margin-left:33px;
+
+  margin-left:41px;
+
   font-family: 'PT Sans';
 color: #333333;
 font-size: 24px;
 text-align: left;
+font-weight: 400;
 }
 .font3 h1 p{
 
-margin-right: 30px;
+margin-right: 39px;
 font-family: 'PT Sans';
 color: #333333;
 font-size: 12px;
 text-align: left;
-
+font-weight: 400;
 }
 
-.font3 img {
+.font3 h1 img {
   float:left;
-  margin-top:6px;
-  margin-left:33px;
-  margin-right:20px;
-  margin-bottom: 20px;
+  margin-left:34px;
+  margin-right:21px;
+  margin-bottom: 17px;
    border:0;
     max-width: 100%;
+}
+.font3 h2 p{
+font-family: 'PT Sans';
+color: #333333;
+font-size: 12px;
+font-weight: 400;
+text-align: left;
+}
+.font3 h2 img{
+  margin-left: 6px;
+  margin-right: 34px;
+  float:right;
+  width: 140px;
+  height: 140px;
+}
+.font3 h3 p{
+
+  font-family: 'PT Sans';
+color: #333333;
+font-size: 18px;
+font-weight: 400;
+text-align: left;
+}
+.font3 figure img{
+width: 194px;
+height: 89px;
+
+
+
+}
+.font3 figure img:first-child{
+  float:left;
+}
+.font3 figure img:last-child{
+  float:right;
+}
+figure:after {
+  content: "";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
 }
 
 .font3 div {
@@ -115,4 +158,12 @@ text-align: left;
   background-color: #f68e56;
   width: 107px;
   height: 31px;
+}
+.font3 h4 p {
+
+  font-family: 'PT Sans';
+color: #333333;
+font-size: 9px;
+font-weight: 400;
+text-align: center;
 }
