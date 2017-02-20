@@ -96,9 +96,9 @@ font-weight: 400;
 
 .font3 h1 img {
   float:left;
-  margin-left:34px;
+  margin-left:41px;
   margin-right:21px;
-  margin-bottom: 17px;
+  margin-bottom: 40px;
    border:0;
     max-width: 100%;
 }
@@ -160,10 +160,18 @@ figure:after {
   height: 31px;
 }
 .font3 h4 p {
-
+margin-right: 34px;
   font-family: 'PT Sans';
 color: #333333;
 font-size: 9px;
 font-weight: 400;
 text-align: center;
+}
+h5 figure img{
+  width: 87px;
+height: 69px;
+  position: fixed;
+  right:0;
+  bottom:0;
+
 }
