@@ -1,19 +1,18 @@
 body {
-  width: 1000px;
+
   height: 2000px;
 }
 
 .conteiner {
-  width: 500px;
-  margin: 239px auto;
+  width: 500px;/*293*/
+  margin: 10% auto;/*239*/
   position: relative;
   }
 .font1 {
   top: 39px;
   position: absolute;
   z-index: 1;
-  //left:258px;
-  border-width: 2px;
+    border-width: 2px;
   border-color: #000000;
   border-style: solid;
   background-color: #acacac;
@@ -168,6 +167,7 @@ font-weight: 400;
 text-align: center;
 }
 h5 figure img{
+  z-index: 10;
   width: 87px;
 height: 69px;
   position: fixed;
