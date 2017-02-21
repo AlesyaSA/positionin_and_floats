@@ -80,12 +80,12 @@ p{
     font-size: 24px;
     }
 
-.page3 h1 p {
+.page3 article p {
     margin-right: 39px;
     font-size: 12px;
     }
 
-.page3 h1 img {
+.page3 article img {
     float: left;
     margin-left: 41px;
     margin-right: 21px;
@@ -93,7 +93,15 @@ p{
     border: 0;
     max-width: 100%;
 }
-.page3 h1{clear:both;}
+article:after {
+  content: "";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+
+
+}
 .page3 h2 p {
     font-size: 12px;
       }
