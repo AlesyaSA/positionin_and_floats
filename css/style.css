@@ -88,7 +88,7 @@ h1 {
 
 
 
-.pages article:last-child {
+.article1 img {
     width: 207px;
     height: 111px;
     float: left;
@@ -97,14 +97,14 @@ h1 {
 
 
 }
-/*
-.pages:last-child article img{
+
+.article2 img{
     margin-left: 6px;
     margin-right: 34px;
     float: right;
     width: 140px;
     height: 140px;
-}*/
+}
 article:after {
     content: "";
     display: block;
@@ -114,6 +114,7 @@ article:after {
 }
 
 h2{
+  margin-left: 41px;
   color: #333333;
 font-size: 18px;
 font-weight: 400;
@@ -151,6 +152,8 @@ figure:after {
 
 
 h6{
+  margin-top: 28px;
+  margin-left: 41px;
     position: relative;
     bottom: 15px;
     margin-right: 34px;
@@ -160,6 +163,7 @@ h6{
 }
 
 .share {
+  z-index: 10;
     position: fixed;
     right: 0;
     bottom: 0;
@@ -172,13 +176,17 @@ h6{
 }
 
 .share p {
-    font-size: 16px;
-    text-align: center;
+  margin-left: 0;
+  margin-right: 0;
+  color: #333333;
+font-size: 16px;
+font-weight: 400;
+text-align: center;
 }
 
 .share img {
     position: relative;
-    bottom: 10px;
+  bottom :10px;
     width: 79px;
     height: 22px;
     margin-left: 5px;
